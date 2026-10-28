@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+  </head>
+  <body>
+    <section
+      class="relative min-h-screen bg-cover bg-center 
+      bg-[url('./HeroImage.png')] bg-cover h-200 w-full"></section>
+    >
+      <!-- Dark overlay -->
+      <div class="absolute inset-0 bg-black/20"></div>
+
+      <!-- Navigation -->
+      <nav
+        class="relative z-10 mx-auto flex max-w-6xl items-center justify-between px-6 py-5 text-white"
+      >
+        <a href="#" class="text-xl font-bold">Tour</a>
+
+        <div class="flex items-center gap-8 text-sm">
+          <a href="#tours" class="hover:text-gray-200">Tours</a>
+          <a href="#about" class="hover:text-gray-200">About</a>
+          <a href="#contact" class="hover:text-gray-200">Contact</a>
+          <button class="rounded-full border border-white px-3 py-1">EN</button>
+        </div>
+      </nav>
+
+      <!-- Hero content -->
+      <div
+        class="relative z-10 flex min-h-[80vh] flex-col items-center justify-center px-4 text-center text-white"
+      >
+        <div class="border-2 border-amber-400 px-6 py-4 sm:px-12 sm:py-8">
+          <p class="text-lg font-semibold tracking-widest sm:text-2xl">
+            PURE MAGIC
+          </p>
+
+          <h1 class="text-5xl font-extrabold sm:text-7xl md:text-8xl">
+            AWAITS!
+          </h1>
+
+          <p class="mt-2 text-2xl font-bold sm:text-3xl">2024</p>
+        </div>
+      </div>
+    </section>
+  </body>
+</html>
